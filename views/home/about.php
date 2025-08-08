@@ -1,6 +1,7 @@
 <div class="page-header">
     <div class="container">
         <h1><?php e($title); ?></h1>
+        <p><<?php e($username) ?>/p>
     </div>
 </div>
 

@@ -29,7 +29,7 @@ function home_about() {
         'content' => 'Cette application est un starter kit PHP MVC développé avec une approche procédurale.'
     ];
     
-    load_view_with_layout('home/about', $data);
+    load_view_with_layout('home/apropos', $data);
 }
 
 /**
