@@ -37,7 +37,7 @@
             <div class="step">
                 <div class="step-number">1</div>
                 <h3>Configuration</h3>
-                <p>Configurez votre base de données dans <code>config/database.php</code></p>
+                <p>Configurez votre base de données</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
