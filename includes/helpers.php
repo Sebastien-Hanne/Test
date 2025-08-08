@@ -4,6 +4,8 @@
 /**
  * Sécurise l'affichage d'une chaîne de caractères (protection XSS)
  */
+//escape = sécurise l'affichage d'une chaine
+//htmlspecialchars = convertie d'es caractère spéciaux en HTML
 function escape($string) {
     return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 }
@@ -23,7 +25,7 @@ function esc($string) {
 }
 
 /**
- * Génère une URL absolue
+ * Génère une URL absolue = URL complète
  */
 function url($path = '') {
     $base_url = rtrim(BASE_URL, '/');
@@ -118,6 +120,7 @@ function validate_email($email) {
 /**
  * Génère un mot de passe sécurisé
  */
+//générateur de mot de passe aléatoire de douze caractères.
 function generate_password($length = 12) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()';
     $password = '';
